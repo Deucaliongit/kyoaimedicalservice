@@ -16,7 +16,7 @@ const NavLinks = () => {
                 heading !== links.name ? setHeading(links.name) : setHeading("")
               }
             >
-              <div className="block text-center justify-center">
+              <div className="block md:text-center justify-center">
                 {links.name}
                 <p className="text-slate-700 px-2 text-xs hover:text-sky-500">
                   {links.jp}

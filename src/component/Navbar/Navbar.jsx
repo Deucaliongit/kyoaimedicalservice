@@ -23,16 +23,16 @@ const Navbar = () => {
     };
   });
   return (
-    <nav className="bg-white sticky top-0 shadow-sm z-50">
+    <nav className="bg-white sticky top-0 shadow-md z-50">
       <div
         className="flex items-center font-medium justify-around"
         ref={menuRef}
       >
-        <div className="z-50 p-2 md:w-auto w-full flex justify-between">
+        <div className="z-50 p-3 md:w-auto w-full bg-white flex justify-between items-center">
           <img
             src={logo}
             alt="logo"
-            className="md:cursor-pointer w-[130px] h-[70px]"
+            className="px-2 md:cursor-pointer w-[90px] md:w-[130px] md:h-[62px]"
           />
           <div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
             <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>

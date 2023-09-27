@@ -5,7 +5,7 @@ import "react-multi-carousel/lib/styles.css";
 import img1 from "../assets/img/slider1.png";
 import img2 from "../assets/img/slider2.png";
 import img3 from "../assets/img/slider1.png";
-import img4 from "../assets/img/slider7.png";
+import img4 from "../assets/img/slider7.webp";
 
 const Slider = () => {
   const images = [img1, img2, img3, img4];

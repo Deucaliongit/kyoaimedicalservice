@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import img1 from "../../assets/img/summitmas.png";
+import img1 from "../../assets/img/summitmas.webp";
 
 const Summitmas = () => {
   useEffect(() => {

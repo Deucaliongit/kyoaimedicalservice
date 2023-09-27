@@ -2,8 +2,16 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { links } from "./MyLinks";
 
-const NavLinks = () => {
+const NavLinks = ({ setOpen }) => {
   const [heading, setHeading] = useState("");
+
+  console.log({ setOpen });
+
+  const handleSublinkClick = () => {
+    // Menutup sidebar saat sublink diklik
+    setOpen(false);
+    console.log("Sidebar closed"); // Tambahkan log ini untuk memeriksa apakah fungsi dipanggil
+  };
 
   return (
     <>
@@ -58,7 +66,9 @@ const NavLinks = () => {
             {links.sublinks.map((slinks, index) => (
               <div key={index}>
                 <li className="bg-gray-100 py-4 pl-7 md:pr-0 pr-5">
-                  <Link to={slinks.link}>{slinks.Head}</Link>
+                  <Link onClick={handleSublinkClick} to={slinks.link}>
+                    {slinks.Head}
+                  </Link>
                 </li>
               </div>
             ))}

@@ -1,10 +1,12 @@
-import React from "react";
-import img1 from "../../assets/img/kiic.png";
+import React, { useEffect } from "react";
+import img1 from "../../assets/img/kiic.webp";
 
 const Kiic = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
-      {" "}
       <img className="w-full mx-auto" src={img1} alt="" />
       <div className="mx-auto px-4 bg-gray-50">
         <h1 className="text-lg lg:text-2xl font-bold text-gray-600 text-center py-4">

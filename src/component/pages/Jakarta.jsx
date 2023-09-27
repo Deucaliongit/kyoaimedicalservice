@@ -1,7 +1,10 @@
-import React from "react";
-import img1 from "../../assets/img/jakarta.png";
+import React, { useEffect } from "react";
+import img1 from "../../assets/img/jakarta.webp";
 
 const Jakarta = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="w-full">
       <img className="w-full mx-auto" src={img1} alt="" />

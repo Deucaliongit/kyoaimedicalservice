@@ -1,7 +1,10 @@
-import React from "react";
-import img1 from "../../assets/img/deltamas.png";
+import React, { useEffect } from "react";
+import img1 from "../../assets/img/deltamas.webp";
 
 const Deltamas = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <img className="w-full mx-auto" src={img1} alt="" />

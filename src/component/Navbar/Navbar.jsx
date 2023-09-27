@@ -67,7 +67,7 @@ const Navbar = () => {
               HOME
             </Link>
           </li>
-          <NavLinks onClick={() => setOpen(!open)} />
+          <NavLinks setOpen={setOpen} />
         </ul>
       </div>
     </nav>

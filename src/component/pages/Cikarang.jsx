@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import img1 from "../../assets/img/jakarta.png";
 
 const Cikarang = () => {

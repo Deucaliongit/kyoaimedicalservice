@@ -1,7 +1,11 @@
-import React from "react";
-import img1 from "../../assets/img/bali.png";
+import React, { useEffect } from "react";
+import img1 from "../../assets/img/bali.webp";
 
 const Bali = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
       <img className="w-full mx-auto" src={img1} alt="" />

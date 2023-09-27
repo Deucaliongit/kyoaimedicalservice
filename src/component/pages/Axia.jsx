@@ -1,7 +1,10 @@
-import React from "react";
-import img1 from "../../assets/img/axia.png";
+import React, { useEffect } from "react";
+import img1 from "../../assets/img/axia.webp";
 
 const Axia = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <img className="w-full mx-auto" src={img1} alt="" />

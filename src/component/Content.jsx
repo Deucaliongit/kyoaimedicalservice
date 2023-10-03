@@ -14,12 +14,12 @@ const Content = () => {
               Some of the Benefits You Get
             </p>
             <h1 className="md:text-2xl sm:text-xl text-lg font-bold py-2 text-white">
-              Japanese standard
+              Our Promo
             </h1>
             <p className="text-white md:text-sm">
-              Get world-class medical services, the expertise of qualified
-              doctors, accredited medical practitioners, and all the
-              conveniences with us
+              Enjoy the health promotion we offer to you, Achieve Optimal Health
+              with Our Quality Health Packages! Exciting Discounts Available
+              Only Now!
             </p>
           </div>
           <img

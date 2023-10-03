@@ -7,7 +7,7 @@ const Lab = () => {
       <img src={lab} alt="slider" />
       <div className="w-full mx-auto px-2 py-2 my-2">
         <h1 className="text-sky-500 text-center font-bold py-4 text-lg lg:text-2xl">
-          Laboratorium
+          Laboratory
         </h1>
         <p className="font-semibold text-slate-500">
           Our clinic can meet the needs of your family or company to get

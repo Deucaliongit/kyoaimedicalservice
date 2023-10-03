@@ -1,13 +1,14 @@
 import React from "react";
 import { MdLocationOn, MdPhone } from "react-icons/md";
 import { RiSmartphoneFill } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 const Location = () => {
   const location = [
     {
       id: 1,
       title: "Jakarta",
-      path: "./",
+      path: "/jakarta",
       contacticon1: <MdPhone />,
       contact1: "021-572-4330",
       contacticon2: <MdPhone />,
@@ -17,7 +18,7 @@ const Location = () => {
     {
       id: 2,
       title: "Cikarang",
-      path: "./",
+      path: "/ejip",
       contacticon1: <MdPhone />,
       contact1: "021-896-77310",
       contacticon2: "",
@@ -27,7 +28,7 @@ const Location = () => {
     {
       id: 3,
       title: "Bali",
-      path: "./",
+      path: "./bali",
       contacticon1: <MdPhone />,
       contact1: "0853-3883-3787",
       contacticon2: <RiSmartphoneFill />,
@@ -37,7 +38,7 @@ const Location = () => {
     {
       id: 4,
       title: "Summitmas",
-      path: "./",
+      path: "/summitmas",
       contacticon1: <MdPhone />,
       contact1: "0877-8979-7773",
       contacticon2: "",
@@ -48,7 +49,7 @@ const Location = () => {
     {
       id: 5,
       title: "Karawang",
-      path: "./",
+      path: "/",
       contacticon1: <MdPhone />,
       contact1: "021-3042-4008",
       contacticon2: "",
@@ -58,7 +59,7 @@ const Location = () => {
     {
       id: 6,
       title: "Delta Mas",
-      path: "./",
+      path: "./deltamas",
       contacticon1: <MdPhone />,
       contact1: "021-572-4330",
       contacticon2: <MdPhone />,
@@ -68,7 +69,7 @@ const Location = () => {
     {
       id: 7,
       title: "Sentra KIIC",
-      path: "./",
+      path: "/kiic",
       contacticon1: <MdPhone />,
       contact1: "021-2956-9381",
       contacticon2: "",
@@ -79,7 +80,7 @@ const Location = () => {
     {
       id: 8,
       title: "Axia",
-      path: "./",
+      path: "/axia",
       contacticon1: <MdPhone />,
       contact1: "021-572-4330",
       contacticon2: "",
@@ -95,8 +96,8 @@ const Location = () => {
       </h1>
       <div className="max-w-[800px] py-4 md:py-4 px-4 mx-auto sm:px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-center gap-5">
         {location.map((locklinik, index) => (
-          <a
-            href="#"
+          <Link
+            to={locklinik.path}
             className="group block max-w-xs md:max-w-sm mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-sky-500 hover:ring-sky-500"
             key={index}
           >
@@ -130,7 +131,7 @@ const Location = () => {
                 {locklinik.contact2}
               </h1>
             </div>
-          </a>
+          </Link>
         ))}
       </div>
     </div>

@@ -30,14 +30,14 @@ const Bali = () => {
           </h1>
           <div className="max-w-[1280px] grid lg:grid-cols-2 mx-auto gap-4 justify-center">
             <div className="bg-sky-500 shadow-sm py-4 font-semibold text-white px-2">
-              Branch : Bali
+              Bali
             </div>
             <div className="bg-sky-500 shadow-sm py-4 font-semibold text-white px-2">
               Gedung Bali, Parking Area, Jl Jendral Sudirman, Kav. 61-62,
               Jakarta Selatan
             </div>
             <div className="bg-sky-500 shadow-sm py-4 font-semibold text-white px-2">
-              （診療時間）Consultation Hours
+              Consultation Hours
             </div>
             <div className="bg-sky-500 shadow-sm py-4 font-semibold text-white px-2">
               Monday～Friday//08:00-18:00、Saturday//08:00-13:00 Sunday//Holiday

@@ -29,7 +29,7 @@ const Suryacipta = () => {
           </h1>
           <div className="max-w-[1280px] grid lg:grid-cols-2 mx-auto gap-4 justify-center">
             <div className="bg-sky-500 shadow-sm py-4 font-semibold text-white px-2">
-              Branch : Karawang
+              Karawang [Surya Cipta]
             </div>
             <div className="bg-sky-500 text-sm shadow-sm py-4 font-semibold text-white px-2">
               Manor Office Park 2nd floor, Surya Utama kav.C-1 Karawang,

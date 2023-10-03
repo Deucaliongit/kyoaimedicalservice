@@ -29,14 +29,14 @@ const Jakarta = () => {
           </h1>
           <div className="max-w-[1280px] grid lg:grid-cols-2 mx-auto gap-4 justify-center">
             <div className="bg-sky-500 shadow-sm py-4 font-semibold text-white px-2">
-              JAKARTA [Jakarta] Main Clinic
+              JAKARTA [ Main Clinic ]
             </div>
             <div className="bg-sky-500 shadow-sm py-4 font-semibold text-white px-2">
               Wisma Keiai 6th floor, Jend.Sudirman kav.3-4 Contact :
               (021)5724330
             </div>
             <div className="bg-sky-500 shadow-sm py-4 font-semibold text-white px-2">
-              (medical hours) Consultation Hours
+              Consultation Hours
             </div>
             <div className="bg-sky-500 shadow-sm py-4 font-semibold text-white px-2">
               Monday～Friday//08:00-18:00、Saturday//08:00-13:00 Sunday//Holiday

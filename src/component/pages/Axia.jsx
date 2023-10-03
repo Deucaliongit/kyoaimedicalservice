@@ -29,7 +29,7 @@ const Axia = () => {
           </h1>
           <div className="max-w-[1280px] grid lg:grid-cols-2 mx-auto gap-4 justify-center">
             <div className="bg-sky-500 shadow-sm py-4 font-semibold text-white px-2">
-              Branch : Axia
+              Axia
             </div>
             <div className="bg-sky-500 shadow-sm text-sm py-4 font-semibold text-white px-2">
               AXIA Building South Cikarang, Jl. Pajajaran No 7 Sukaresmi,

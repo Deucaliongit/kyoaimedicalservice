@@ -73,7 +73,7 @@ export const links = [
   },
   {
     id: 4,
-    name: "Branch",
+    name: "Our Clinic",
     jp: "支 店",
     submenu: true,
     sublinks: [

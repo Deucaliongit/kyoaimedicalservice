@@ -6,13 +6,14 @@ import sungkono from "../../assets/img/sungkono.png";
 import sudirman from "../../assets/img/sudirman.png";
 import laura from "../../assets/img/laura.png";
 import bjp from "../../assets/img/jplear.png";
+import bpjn from "../../assets/img/jpori.png";
 import ben from "../../assets/img/eng.png";
 
 const Staff = () => {
   const Doctor = [
     {
       foto: lili,
-      bahasa1: bjp,
+      bahasa1: bpjn,
       bahasa2: ben,
       education: "(Radiologic Technologist)",
       nameDrjp: "名前:リリ",
@@ -32,7 +33,7 @@ const Staff = () => {
     },
     {
       foto: sungkono,
-      bahasa1: bjp,
+      bahasa1: bpjn,
       bahasa2: ben,
       education: "(clinical laboratory technician)",
       nameDrjp: "名前:スンコノ",
@@ -42,7 +43,7 @@ const Staff = () => {
     },
     {
       foto: sudirman,
-      bahasa1: bjp,
+      bahasa1: bpjn,
       bahasa2: ben,
       education: "(Radiologic Technologist)",
       nameDrjp: "名前:スディルマン",

@@ -8,13 +8,14 @@ import sisca from "../../assets/img/drsisca.png";
 import amelia from "../../assets/img/dramel.png";
 import audi from "../../assets/img/draudi.png";
 import bjp from "../../assets/img/jplear.png";
+import bjpn from "../../assets/img/jpori.png";
 import ben from "../../assets/img/eng.png";
 
 const Doctor = () => {
   const Doctor = [
     {
       foto: julia,
-      bahasa1: bjp,
+      bahasa1: bjpn,
       bahasa2: ben,
       education:
         " AtmaJaya Universityschool of medicine Graduated from Osaka University School of Medicine, Department of Clinical Genetics",

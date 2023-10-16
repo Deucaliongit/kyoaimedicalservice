@@ -53,6 +53,7 @@ const Axia = () => {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.503885900466!2d107.1297617709931!3d-6.328691947890023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e699b421336f985%3A0x7b46fefe4854d9e!2sKYOAI%20MEDICAL%20SERVICES%20(AXIA)!5e0!3m2!1sid!2sid!4v1691461646004!5m2!1sid!2sid"
             width="1280"
             height="600"
+            title="mapAxia"
             style={{ border: "0" }}
             allowfullscreen=""
             loading="lazy"

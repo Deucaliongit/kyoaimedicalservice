@@ -53,6 +53,7 @@ const Summitmas = () => {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.284278527429!2d106.8019376742331!3d-6.226199560975415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f194f63b2305%3A0xc9285b218cd9c279!2sKYOAI%20MEDICAL%20SERVICES%20-%20SUMMITMAS!5e0!3m2!1sid!2sid!4v1691384542982!5m2!1sid!2sid"
             width="1280"
             height="600"
+            title="mapSummit"
             style={{ border: "0" }}
             allowfullscreen=""
             loading="lazy"

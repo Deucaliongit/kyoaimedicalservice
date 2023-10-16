@@ -7,7 +7,7 @@ const Services = () => {
     <div className="w-full py-6">
       <div className="max-w-[1240px] mx-auto sm:px-4 grid sm:grid-cols-3 md:grid-cols-3 justify-center gap-6">
         <a
-          href="#"
+          href=""
           className="group block max-w-xs md:max-w-sm mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-sky-500 hover:ring-sky-500"
         >
           <div className="block items-center space-x-3">
@@ -28,7 +28,7 @@ const Services = () => {
         </a>
 
         <a
-          href="#"
+          href=""
           className="group block  max-w-xs md:max-w-sm mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-sky-500 hover:ring-sky-500"
         >
           <div className="block items-center space-x-3">
@@ -49,7 +49,7 @@ const Services = () => {
         </a>
 
         <a
-          href="#"
+          href=""
           className="group block max-w-xs md:max-w-sm lg:max-w-md mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-sky-500 hover:ring-sky-500"
         >
           <div className="block items-center space-x-3">

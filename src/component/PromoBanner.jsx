@@ -29,7 +29,7 @@ const PromoBanner = ({ onClose }) => {
     >
       <div className="relative w-[800px] h:[500px] md:h-[400px] mx-auto">
         <button
-          className="absolute top-2 right-2 text-gray-800 hover:text-gray-400 focus:outline-none"
+          className="absolute top-2 right-2 text-gray-800 hover:text-black focus:outline-none text-2xl md:text-3xl"
           onClick={onClose}
         >
           <AiFillCloseSquare />

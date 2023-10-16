@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="max-w-[1240] mx-auto mt-10 py-10 px-4 grid lg:grid-cols-3 gap-8 text-gray-300 bg-sky-500">
+    <div className="max-w-[1240] mx-auto py-10 px-4 grid lg:grid-cols-3 gap-8 text-gray-300 bg-sky-500">
       <div className="px-2">
         <h1 className="w-full text-2xl md:text-xl font-bold text-white">
           Kyoai Medical Services

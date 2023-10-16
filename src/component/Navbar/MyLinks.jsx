@@ -33,6 +33,10 @@ export const links = [
         Head: "Checkup Flow",
         link: "/healthcheckupflow",
       },
+      {
+        Head: "Revere",
+        link: "/revere",
+      },
     ],
   },
   {

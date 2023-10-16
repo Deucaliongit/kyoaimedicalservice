@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -76,10 +76,10 @@ const Slider = () => {
           className="mySwiper"
         >
           <SwiperSlide className="bg-sky-500">
-            <img src={imgK1} alt="slider" />
+            <img src={imgK1} alt="sliderkicik1" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={imgK2} />
+            <img src={imgK2} alt="sliderkicik2" />
           </SwiperSlide>
         </Swiper>
       </div>

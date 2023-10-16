@@ -90,7 +90,7 @@ const Location = () => {
     },
   ];
   return (
-    <div className="w-full bg-white">
+    <div className="w-full bg-white mb-8">
       <h1 className="text-center font-bold text-sky-500 text-xl md:text-2xl mx-auto py-8">
         Our Location
       </h1>

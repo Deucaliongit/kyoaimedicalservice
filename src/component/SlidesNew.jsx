@@ -1,11 +1,12 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import news1 from "../assets/img/news1.png";
 import news2 from "../assets/img/news2.png";
 import news3 from "../assets/img/news3.png";
 import kyoainews1 from "../assets/img/kyoainews1.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { getNewsList } from "../Api";
 
 const SlidesNew = () => {
   const Newscard = [
@@ -59,7 +60,7 @@ const SlidesNew = () => {
         " この状態は、危険で緊急の医学的症状です。突然の心停止は、多くの場合、",
     },
   ];
-  const images = [news1, news2, news3];
+  // const images = [news1, news2, news3];
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -79,10 +80,43 @@ const SlidesNew = () => {
       items: 1,
     },
   };
+
+  // const [news, setNews] = useState([]);
+
+  // useEffect(() => {
+  //   getNewsList().then((articles) => {
+  //     setNews(articles);
+  //   });
+  // }, []);
+
   return (
     <div className="">
+      {/* <Carousel responsive={responsive}>
+        {news.slice(0, 5).map((newskyoai, index) => (
+          <div
+            className="mx-4 h-96 bg-white rounded-xl rounded-b-none"
+            key={index}
+          >
+            <div className="grid grid-cols-1 bg-white rounded-xl">
+              <img
+                src={newskyoai.urlToImg}
+                className="rounded-xl h-52 w-full object-cover rounded-b-none"
+              />
+              <div className="p-4">
+                <h2 className="text-sm py-2 text-gray-300 font-bold">
+                  {newskyoai.publishedAt}
+                </h2>
+                <h1 className="font-semibold text-lg pb-2">
+                  {newskyoai.title}
+                </h1>
+                <p className="text-xs">{newskyoai.description}</p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </Carousel> */}
       <Carousel responsive={responsive}>
-        {Newscard.map((newskyoai, index) => (
+        {Newscard.slice(0, 5).map((newskyoai, index) => (
           <div
             className="mx-4 h-96 bg-white rounded-xl rounded-b-none"
             key={index}

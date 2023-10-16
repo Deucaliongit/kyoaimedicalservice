@@ -52,6 +52,7 @@ const Jakarta = () => {
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4364066199446!2d106.81887127423283!3d-6.206023560790757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f41ce7e1f987%3A0xa81d4a263f590cf7!2sKyoai%20Medical%20Services%20(Jakarta)!5e0!3m2!1sid!2sid!4v1691383333102!5m2!1sid!2sid"
             width="1280"
+            title="mapJakarta"
             height="600"
             style={{ border: "0" }}
             allowfullscreen=""
